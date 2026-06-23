@@ -1,0 +1,31 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Jane Doe
+N:Doe;Jane;;;
+ORG:Acme Corp
+item1.TEL;type=CELL;type=pref:+1 (555) 123-4567
+item1.X-ABLabel:_$!<Mobile>!$_
+EMAIL;TYPE=INTERNET:jane.doe@example.com
+PHOTO;ENCODING=b;TYPE=JPEG:iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==
+X-SOCIALPROFILE;type=linkedin:https://linkedin.com/in/janedoe
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Priya Sharma
+N:Sharma;Priya;;;
+TEL;TYPE=WORK:+1 (555) 800-9001
+TEL;TYPE=CELL:+1 (555) 800-9002
+EMAIL;TYPE=INTERNET:priya@example.org
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:iCloud Only Person
+N:Person;iCloud Only;;;
+EMAIL;TYPE=INTERNET:icloudonly@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:4.0
+FN:Alex Kim
+N:Kim;Alex;;;
+TEL;TYPE=cell:+15550001234
+END:VCARD

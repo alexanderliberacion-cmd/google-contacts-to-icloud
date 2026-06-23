@@ -1,0 +1,28 @@
+# Real contact data — NEVER commit these
+input/
+output/
+*.vcf
+*.abbu
+
+# Root-level Google CSV exports (real data lives here before moving to input/)
+contacts-*.csv
+*.csv
+
+# Exception: anonymized test fixtures are safe to commit
+!tests/fixtures/
+!tests/fixtures/*.csv
+!tests/fixtures/*.vcf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+uv.lock
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store

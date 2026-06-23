@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google-contacts-to-icloud"
+version = "1.0.0"
+description = "Merge Google Contacts exports into one clean, de-duplicated vCard for Apple Contacts / iCloud."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Phil Rivard" }]
+keywords = ["google-contacts", "icloud", "vcard", "contacts", "cli"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: Communications :: Email :: Address Book",
+]
+
+[project.urls]
+Homepage = "https://github.com/tehlowkeywiz/google-contacts-to-icloud"
+Issues = "https://github.com/tehlowkeywiz/google-contacts-to-icloud/issues"
+
+# Installs a `google-contacts-to-icloud` command that runs merge_contacts.main().
+[project.scripts]
+google-contacts-to-icloud = "merge_contacts:main"
+
+[tool.setuptools]
+py-modules = ["merge_contacts"]
